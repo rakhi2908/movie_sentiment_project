@@ -12,7 +12,30 @@ This project analyzes the sentiment of movie reviews using **Natural Language Pr
 - 📊 Displays accuracy and evaluation metrics
 - 📁 Easy-to-use script with sample dataset included
 
+
 ---
 
-## 📁 Project Structure
+## 📊 Dataset
+
+- A dataset of labeled movie reviews (e.g., IMDb or custom) in `.csv` format.
+- Contains:
+  - `review` (text)
+  - `sentiment` (label: Positive or Negative)
+
+---
+
+## 🚀 How to Run
+
+### ✅ Requirements
+- Python 3.x
+- scikit-learn
+- pandas
+- numpy
+- matplotlib (optional)
+- nltk (if used)
+
+### 🛠️ Install dependencies
+```bash
+pip install -r requirements.txt
+
 
